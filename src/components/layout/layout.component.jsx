@@ -17,7 +17,7 @@ export default function Layout({ children }) {
         }
       `}</style>
       <Navbar />
-      <main className="mx-4">{children}</main>
+      <main className="mx-4 min-h-[calc(100vh_-_7rem)]">{children}</main>
       <Footer />
     </>
   );
